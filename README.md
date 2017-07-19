@@ -4,6 +4,11 @@ Code examples from [Fluent Python][1] book by Luciano Ramalho
 
  [1]: https://www.goodreads.com/book/show/22800567-fluent-python
 
+## Project Management
+
+- Tests (doctest): `unittest tests.py`
+- Tested on macOS + Python 3.6
+
 ## Table of Content
 
 - Part I: Prologue
