@@ -1,8 +1,8 @@
 import doctest
-
-import chapter1.card_deck
+import os
 
 
 def load_tests(_loader, tests, _ignore):
-    tests.addTests(doctest.DocTestSuite(chapter1.card_deck))
+    path = os.path.join('chapter1', 'card_deck.doctest')
+    tests.addTests(doctest.DocFileSuite(path))
     return tests
