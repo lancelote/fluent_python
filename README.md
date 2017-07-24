@@ -6,7 +6,7 @@ Code examples from [Fluent Python][1] book by Luciano Ramalho
 
 ## Project Management
 
-- Tests (doctest): `python -m unittest tests.py`
+- Tests (doctest): `python -m unittest doctests.py`
 - Tested on macOS + Python 3.6
 
 ## Table of Content

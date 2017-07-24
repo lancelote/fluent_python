@@ -3,6 +3,6 @@ import os
 
 
 def load_tests(_loader, tests, _ignore):
-    path = os.path.join('chapter1', 'card_deck.doctest')
+    path = os.path.join('tests', 'chapter1', 'card_deck.doctest')
     tests.addTests(doctest.DocFileSuite(path))
     return tests
