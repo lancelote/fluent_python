@@ -3,6 +3,11 @@ import os
 
 
 def load_tests(_loader, tests, _ignore):
-    path = os.path.join('tests', 'chapter1', 'card_deck.doctest')
-    tests.addTests(doctest.DocFileSuite(path))
+    test_files = []
+    for root, dirs, files in os.walk('tests'):
+        for file in files:
+            if file.endswith('.doctest'):
+                test_files.append(os.path.join(root, file))
+    for test_file in test_files:
+        tests.addTests(doctest.DocFileSuite(test_file))
     return tests
