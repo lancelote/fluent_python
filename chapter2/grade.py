@@ -1,3 +1,8 @@
+"""
+>>> [grade(score) for score in [33, 99, 77, 70, 89, 90, 100]]
+['F', 'A', 'C', 'C', 'B', 'A', 'A']
+"""
+
 import bisect
 
 
