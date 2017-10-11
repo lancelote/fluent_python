@@ -14,7 +14,7 @@ Code examples from [Fluent Python][1] book by Luciano Ramalho
 - Part I: Prologue
   - [x] Chapter 1: The Python Data Model
 - Part II: Data Structures
-  - [ ] Chapter 2: An Array of Sequences
+  - [x] Chapter 2: An Array of Sequences
   - [ ] Chapter 3: Dictionaries and Sets
   - [ ] Chapter 4: Text versus Bytes
 - Part III: Functions as Objects
